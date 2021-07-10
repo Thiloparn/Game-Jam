@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Hero
   - Turn
+  - Split
+  - Room
   layers:
   - Default
   - TransparentFX

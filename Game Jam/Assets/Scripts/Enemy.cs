@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public int speed;
 
     public new Rigidbody2D rigidbody;
+    public new BoxCollider2D collider;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -44,7 +45,7 @@ public class Enemy : MonoBehaviour
             }
 
             Destroy(this.gameObject);
-        }
+        } 
     }
 
     void Update()
